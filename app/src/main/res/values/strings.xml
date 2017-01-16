@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Dribble</string>
+
+    <string name="title_home">Dribble</string>
+    <string name="title_likes">Likes</string>
+    <string name="title_buckets">Buckets</string>
+
+    <string name="drawer_menu_home">Home</string>
+    <string name="drawer_menu_favorite">Favorite</string>
+    <string name="drawer_menu_animatedGif">Animated GIFs</string>
+    <string name="drawer_menu_shotswithattachments">Attachments</string>
+    <string name="drawer_menu_debuts">Debuts</string>
+    <string name="drawer_menu_teamshots">Team Shots</string>
+    <string name="drawer_menu_playoffs">Playoffs</string>
+    <string name="drawer_menu_rebounds">Rebounds</string>
+    
+    <string name="timeline_menu_popular">Popular</string>
+    <string name="timeline_menu_recent">Recent</string>
+    <string name="timeline_menu_mostviewed">Most Viewed</string>
+    <string name="timeline_menu_mostcommented">Most Commented</string>
+
+    <string name="timeline2_menu_now">Now</string>
+    <string name="timeline2_menu_thisweek">Past Week</string>
+    <string name="timeline2_menu_thismonth">Past Month</string>
+    <string name="timeline2_menu_thisyear">Past Year</string>
+    <string name="timeline2_menu_ever">All time</string>
+    <string name="timeline2_menu_delete">Delete</string>
+
+    <string name="timeline_menu_mostviewed_pastweek">Most Viewed + Past Week</string>
+    <string name="timeline_menu_mostviewed_pastmonth">Most Viewed + Past Month</string>
+    <string name="timeline_menu_mostviewed_pastyear">Most Viewed + Past Year</string>
+    <string name="timeline_menu_mostviewed_alltime">Most Viewed + All Time</string>
+
+    <string name="timeline_menu_mostcomment_pastweek">Most Commented + Past Week</string>
+    <string name="timeline_menu_mostcomment_pastmonth">Most Commented + Past Month</string>
+    <string name="timeline_menu_mostcomment_pastyear">Most Commented + Past Year</string>
+
+
+    <string name="drawer_menu_following">Shots List</string>
+    <string name="drawer_menu_likes">Likes</string>
+    <string name="drawer_menu_buckets">Buckets</string>
+    <string name="drawer_menu_aboutme">About Me</string>
+    <string name="drawer_menu_friends">Friends List</string>
+
+    <string name="login">Log in</string>
+    <string name="logout">Log out</string>
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="share_shot">Share shot</string>
+    <string name="user_profile_picture">User profile picture</string>
+
+    <string name="open_drawer">open drawer</string>
+    <string name="close_drawer">close drawer</string>
+
+    <string name="new_bucket_title">New bucket</string>
+    <string name="new_bucket_create">Create</string>
+    <string name="new_bucket_cancel">Cancel</string>
+    <string name="new_bucket_name">Bucket name</string>
+    <string name="new_bucket_description">Bucket description</string>
+
+    <string name="choose_bucket">Choose bucket</string>
+    <string name="delete_bucket">Delete bucket</string>
+    <string name="delete">Delete</string>
+    <string name="delete_successfully">Delete Successfully</string>
+
+    <string name="unfollow">Click ball to unfollow</string>
+    <string name="follow">Click ball to follow this guy</string>
+
+    <string name="shot_count_single">%1$d shot</string>
+    <string name="shot_count_plural">%1$d shots</string>
+
+    <string name="shot_detail_loading_buckets">Loading buckets, just one second…</string>
+    <string name="shot_image">Shot image</string>
+
+    <string name="auth_activity_title">Log into Dribble</string>
+
+    <string name="activity_login_btn_text">Log into Dribble</string>
+    <string name="activity_signup_btn_text">Sign up Dribble</string>
+    <string name="activity_login_icon">Dribbble icon</string>
+
+    <string name="save_to_gallery">Image is saved to gallery</string>
+    <string name="how_to_save_image">Long click to save image</string>
+
+    <string name="about_me">Developer: Xin Su \nEmail: xis49@pitt.edu \nContact: 412.304.5387 \nIf you have any suggestions and questions, welcome to contact me.
+    \n\n\nI am a graduate student, and I developed this app in spare time, evenings and weekends. If you like it, you can give me five stars. If you really like it, you can also donate some money. But if you do not like it, I hope you can also give me four stars. I will be appreciated that.</string>
+
+    <string name="about_me_donation">In case you want to buy me a beer, click to copy the address. \n\nVersion: 1.0</string>
+    <string name="venmo">Xin-Su-2</string>
+    <string name="wechat">suxin20100529</string>
+    <string name="alipay">820897172@qq.com</string>
+
+    <string name="aboutme_venmo">Venmo</string>
+    <string name="aboutme_wechat">WeChat ID</string>
+    <string name="aboutme_Alipay">Alipay</string>
+    <string name="venmo_copy">Venmo address has copied successfully</string>
+    <string name="wechat_copy">WeChat ID has copied successfully</string>
+    <string name="alipay_copy">Alipay ID has copied successfully</string>
+
+
+</resources>

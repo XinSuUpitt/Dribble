@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item
+            android:id="@+id/popular"
+            android:title="@string/timeline_menu_popular"/>
+        <item
+            android:id="@+id/recent"
+            android:title="@string/timeline_menu_recent"/>
+        <item
+            android:id="@+id/mostviewed"
+            android:title="@string/timeline_menu_mostviewed"/>
+        <item
+            android:id="@+id/mostcommented"
+            android:title="@string/timeline_menu_mostcommented"/>
+        <item
+            android:id="@+id/pastweek"
+            android:title="@string/timeline2_menu_thisweek"/>
+        <item
+            android:id="@+id/pastmonth"
+            android:title="@string/timeline2_menu_thismonth"/>
+        <item
+            android:id="@+id/pastyear"
+            android:title="@string/timeline2_menu_thisyear"/>
+        <item
+            android:id="@+id/alltime"
+            android:title="@string/timeline2_menu_ever"/>
+        <item
+            android:id="@+id/mostviewed_pastweek"
+            android:title="@string/timeline_menu_mostviewed_pastweek"/>
+        <item
+            android:id="@+id/mostviewed_pastmonth"
+            android:title="@string/timeline_menu_mostviewed_pastmonth"/>
+        <item
+            android:id="@+id/mostviewed_pastyear"
+            android:title="@string/timeline_menu_mostviewed_pastyear"/>
+        <item
+            android:id="@+id/mostviewed_alltime"
+            android:title="@string/timeline_menu_mostviewed_alltime"/>
+
+
+    </group>
+
+</menu>

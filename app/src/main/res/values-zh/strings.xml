@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dribble</string>
+
+    <string name="title_home">Dribble</string>
+    <string name="title_likes">Likes</string>
+    <string name="title_buckets">Buckets</string>
+
+    <string name="drawer_menu_home">主页</string>
+    <string name="drawer_menu_favorite">Favorite</string>
+    <string name="drawer_menu_animatedGif">Animated GIFs</string>
+    <string name="drawer_menu_shotswithattachments">Attachments</string>
+    <string name="drawer_menu_debuts">Debuts</string>
+    <string name="drawer_menu_teamshots">Team Shots</string>
+    <string name="drawer_menu_playoffs">Playoffs</string>
+    <string name="drawer_menu_rebounds">Rebounds</string>
+
+    <string name="timeline_menu_popular">最受欢迎的</string>
+    <string name="timeline_menu_recent">最近的</string>
+    <string name="timeline_menu_mostviewed">浏览最多</string>
+    <string name="timeline_menu_mostcommented">评论最多</string>
+
+    <string name="timeline2_menu_now">现在</string>
+    <string name="timeline2_menu_thisweek">过去一周</string>
+    <string name="timeline2_menu_thismonth">过去一月</string>
+    <string name="timeline2_menu_thisyear">过去一年</string>
+    <string name="timeline2_menu_ever">一直以来</string>
+    <string name="timeline2_menu_delete">删除</string>
+
+
+    <string name="timeline_menu_mostviewed_pastweek">过去一周浏览最多</string>
+    <string name="timeline_menu_mostviewed_pastmonth">过去一月浏览最多</string>
+    <string name="timeline_menu_mostviewed_pastyear">过去一年浏览最多</string>
+    <string name="timeline_menu_mostviewed_alltime">一直以来浏览最多</string>
+
+    <string name="timeline_menu_mostcomment_pastweek">过去一周评论最多</string>
+    <string name="timeline_menu_mostcomment_pastmonth">过去一月评论最多</string>
+    <string name="timeline_menu_mostcomment_pastyear">过去一年评论最多</string>
+
+
+    <string name="drawer_menu_following">图片列表</string>
+    <string name="drawer_menu_likes">Likes</string>
+    <string name="drawer_menu_buckets">Buckets</string>
+    <string name="drawer_menu_aboutme">关于我</string>
+    <string name="drawer_menu_friends">好友列表</string>
+
+
+    <string name="login">登录</string>
+    <string name="logout">登出</string>
+    <string name="save">保存</string>
+    <string name="share">分享</string>
+    <string name="share_shot">分享 shot</string>
+    <string name="user_profile_picture">用户头像</string>
+
+    <string name="open_drawer">open drawer</string>
+    <string name="close_drawer">close drawer</string>
+
+    <string name="new_bucket_title">New bucket</string>
+    <string name="new_bucket_create">新建</string>
+    <string name="new_bucket_cancel">取消</string>
+    <string name="new_bucket_name">Bucket 名字</string>
+    <string name="new_bucket_description">Bucket 描述</string>
+
+    <string name="choose_bucket">选择 bucket</string>
+    <string name="delete_bucket">删除 bucket</string>
+    <string name="delete">删除</string>
+    <string name="delete_successfully">删除成功</string>
+
+    <string name="unfollow">点击篮球取消好友</string>
+    <string name="follow">点击篮球加好友</string>
+
+
+
+    <string name="shot_count_single">%1$d shot</string>
+    <string name="shot_count_plural">%1$d shots</string>
+
+    <string name="shot_detail_loading_buckets">载入 buckets, 稍等一秒…</string>
+    <string name="shot_image">Shot image</string>
+
+    <string name="auth_activity_title">登入dribbble</string>
+
+    <string name="activity_login_btn_text">登入Dribble</string>
+    <string name="activity_signup_btn_text">注册Dribble</string>
+    <string name="activity_login_icon">Dribbble 图标</string>
+
+    <string name="save_to_gallery">图片已保存到相册</string>
+    <string name="how_to_save_image">长按保存图片</string>
+
+    <string name="about_me">开发者: 苏昕\n邮箱: xis49@pitt.edu\n电话: 412.304.5387\n如果您有任何的意见或建议, 欢迎联系。
+        \n\n\n我是一名在读研究生, 利用课余时间的晚上和周末去开发这个APP, 如果您觉得喜欢,您可以给我五星评价;如果您非常喜欢,您可以给我一些打赏。即使您不喜欢这个APP,也希望您能给我四星评价。非常感谢您!!</string>
+
+    <string name="about_me_donation">如果您想给我打赏, 请点击上面的地址进行复制。 \n\n版本: 1.0</string>
+    <string name="venmo">Xin-Su-2</string>
+    <string name="wechat">suxin20100529</string>
+    <string name="alipay">820897172@qq.com</string>
+
+    <string name="aboutme_venmo">Venmo</string>
+    <string name="aboutme_wechat">微信: </string>
+    <string name="aboutme_Alipay">支付宝: </string>
+    <string name="venmo_copy">Venmo地址被成功复制</string>
+    <string name="wechat_copy">微信账号被成功复制</string>
+    <string name="alipay_copy">支付宝账号被成功复制</string>
+
+
+</resources>

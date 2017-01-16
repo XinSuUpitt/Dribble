@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_xsmall">
+
+        <ImageView
+            android:id="@+id/info_author_picture"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="@dimen/spacing_medium"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            tools:src="@drawable/user_picture_placeholder"/>
+
+        <TextView
+            android:id="@+id/info_author_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/info_author_picture"
+            android:layout_toRightOf="@id/info_author_picture"
+            android:paddingTop="20dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/spacing_large"
+            tools:text="Author Name" />
+
+        <TextView
+            android:id="@+id/info_author_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/info_author_name"
+            android:layout_below="@id/info_author_name"
+            android:drawableLeft="@drawable/ic_location_on_black_18dp"
+            android:textSize="@dimen/spacing_medium"
+            android:drawablePadding="@dimen/spacing_xsmall"
+            tools:text="Location" />
+
+    </RelativeLayout>
+
+    <View style="@style/Divider"></View>
+
+    <LinearLayout
+        android:id="@+id/info_shots_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/spacing_medium_small"
+        android:paddingTop="@dimen/spacing_medium"
+        android:paddingBottom="@dimen/spacing_small"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/info_shots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_shots"
+            android:drawablePadding="@dimen/spacing_small"
+            android:textSize="20dp"
+            android:text="0"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4dp"
+            android:textSize="20dp"
+            android:text="shots"/>
+
+    </LinearLayout>
+
+
+    <View style="@style/Divider"></View>
+
+    <TextView
+        android:id="@+id/info_website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/spacing_medium_small"
+        android:paddingTop="@dimen/spacing_small"
+        android:paddingBottom="@dimen/spacing_small"
+        android:drawableLeft="@drawable/ic_language_black_18dp"
+        android:drawablePadding="@dimen/spacing_small"
+        android:textSize="20dp"
+        android:text="website"/>
+
+    <View style="@style/Divider"></View>
+
+    <TextView
+        android:id="@+id/info_twitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/spacing_medium_small"
+        android:paddingTop="@dimen/spacing_small"
+        android:paddingBottom="@dimen/spacing_small"
+        android:drawableLeft="@drawable/ic_twitter2"
+        android:drawablePadding="@dimen/spacing_small"
+        android:textSize="20dp"
+        android:text="twitter"/>
+
+    <View style="@style/Divider"></View>
+
+
+
+    <LinearLayout
+        android:id="@+id/info_followers_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/spacing_medium_small"
+        android:paddingTop="@dimen/spacing_small"
+        android:paddingBottom="@dimen/spacing_small">
+
+        <TextView
+            android:id="@+id/info_followers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_person_black_18dp"
+            android:drawablePadding="@dimen/spacing_small"
+            android:textSize="20dp"
+            android:text="0"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4dp"
+            android:textSize="20dp"
+            android:text="followers"/>
+
+    </LinearLayout>
+
+    <View style="@style/Divider"></View>
+
+    <LinearLayout
+        android:id="@+id/info_following_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/spacing_medium_small"
+        android:paddingTop="@dimen/spacing_small"
+        android:paddingBottom="@dimen/spacing_small">
+
+        <TextView
+            android:id="@+id/info_following"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_person_outline_black_18dp"
+            android:drawablePadding="@dimen/spacing_small"
+            android:textSize="20dp"
+            android:text="0"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4dp"
+            android:textSize="20dp"
+            android:text="followings"/>
+
+    </LinearLayout>
+
+    <View style="@style/Divider"></View>
+
+
+
+    <LinearLayout
+        android:id="@+id/info_team_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/spacing_medium_small"
+        android:paddingTop="@dimen/spacing_small"
+        android:paddingBottom="@dimen/spacing_small">
+
+        <TextView
+            android:id="@+id/info_team"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_people_black_18dp"
+            android:drawablePadding="@dimen/spacing_small"
+            android:textSize="20dp"
+            android:text="0"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4dp"
+            android:textSize="20dp"
+            android:text="teams"/>
+
+    </LinearLayout>
+
+    <View style="@style/Divider"></View>
+
+    <LinearLayout
+        android:id="@+id/info_like_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/spacing_medium_small"
+        android:paddingTop="@dimen/spacing_small"
+        android:paddingBottom="@dimen/spacing_small">
+
+        <TextView
+            android:id="@+id/info_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_favorite_border_black_18dp"
+            android:drawablePadding="@dimen/spacing_small"
+            android:textSize="20dp"
+            android:text="0"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4dp"
+            android:textSize="20dp"
+            android:text="likes"/>
+
+    </LinearLayout>
+
+    <View style="@style/Divider"></View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spacing_medium" />
+
+    <ImageButton
+        android:id="@+id/follow_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/unfollow"
+        android:background="?attr/selectableItemBackground" />
+
+</LinearLayout>

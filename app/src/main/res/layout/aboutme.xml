@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:hint="@string/about_me"
+        android:textSize="@dimen/spacing_medium"
+        android:padding="@dimen/spacing_xsmall"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/spacing_xsmall">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Venmo: "
+            android:textSize="@dimen/spacing_medium"/>
+        <TextView
+            android:id="@+id/venmo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/venmo"
+            android:clickable="true"
+            android:textSize="@dimen/spacing_medium"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/spacing_xsmall">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aboutme_wechat"
+            android:textSize="@dimen/spacing_medium"/>
+        <TextView
+            android:id="@+id/wechat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wechat"
+            android:clickable="true"
+            android:textSize="@dimen/spacing_medium"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/spacing_xsmall">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aboutme_Alipay"
+            android:textSize="@dimen/spacing_medium"/>
+        <TextView
+            android:id="@+id/alipay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alipay"
+            android:clickable="true"
+            android:textSize="@dimen/spacing_medium"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:hint="@string/about_me_donation"
+        android:textIsSelectable="true"
+        android:textSize="@dimen/spacing_medium"
+        android:paddingLeft="@dimen/spacing_xsmall"/>
+
+</LinearLayout>

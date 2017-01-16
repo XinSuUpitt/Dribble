@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="suxin.dribble">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:name=".DribbbleApplication"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".view.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".view.MainActivity" />
+
+        <activity android:name=".view.shot_detail.ShotActivity" />
+        <activity android:name=".view.comment_list.CommentActivity"/>
+        <activity android:name=".view.user_list.UserActivity"/>
+        <activity android:name=".view.user_list.user_shots_list.UserShotsListActivity"/>
+        <activity android:name=".view.attachment_list.AttachmentActivity"/>
+        <activity android:name=".view.tag_list.TagActivity"/>
+        <activity android:name=".view.bucket_list.BucketListActivity" />
+        <activity android:name=".view.bucket_list.BucketShotListActivity" />
+
+        <activity
+            android:name=".dribble.auth.AuthActivity"
+            android:windowSoftInputMode="adjustPan"/>
+
+    </application>
+
+</manifest>

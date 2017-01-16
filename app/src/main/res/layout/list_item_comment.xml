@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp">
+        <ImageView
+            android:id="@+id/comment_author_picture"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="@dimen/spacing_medium"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            tools:src="@drawable/user_picture_placeholder"/>
+
+        <TextView
+            android:id="@+id/comment_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/comment_author_picture"
+            android:layout_toRightOf="@id/comment_author_picture"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            tools:text="Author name" />
+
+        <TextView
+            android:id="@+id/shot_comment_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/comment_author"
+            android:layout_below="@id/comment_author"
+            android:text="comments" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_item_home"
+            android:icon="@drawable/ic_home_black_18px"
+            android:title="@string/drawer_menu_home" >
+
+            <menu>
+
+                <group android:checkableBehavior="single">
+
+                    <item
+                        android:id="@+id/drawer_item_favorite"
+                        android:icon="@drawable/ic_home_black_18px"
+                        android:title="@string/drawer_menu_favorite" />
+                    <item
+                        android:id="@+id/drawer_item_animatedGIFs"
+                        android:icon="@drawable/ic_gif_black_24dp"
+                        android:title="@string/drawer_menu_animatedGif" />
+                    <item
+                        android:id="@+id/drawer_item_attachments"
+                        android:icon="@drawable/ic_attachment_black_24dp"
+                        android:title="@string/drawer_menu_shotswithattachments" />
+                    <item
+                        android:id="@+id/drawer_item_debuts"
+                        android:icon="@drawable/ic_fiber_new_black_24dp"
+                        android:title="@string/drawer_menu_debuts" />
+                    <item
+                        android:id="@+id/drawer_item_teamshots"
+                        android:icon="@drawable/ic_people_black_24dp"
+                        android:title="@string/drawer_menu_teamshots" />
+                    <item
+                        android:id="@+id/drawer_item_playoffs"
+                        android:icon="@drawable/ic_trending_up_black_24dp"
+                        android:title="@string/drawer_menu_playoffs" />
+                    <item
+                        android:id="@+id/drawer_item_rebounds"
+                        android:icon="@drawable/ic_crop_5_4_black_24dp"
+                        android:title="@string/drawer_menu_rebounds" />
+
+                </group>
+
+            </menu>
+
+        </item>
+
+
+        <group android:checkableBehavior="single">
+            <item
+                android:title= "Following">
+                <menu>
+                    <item
+                        android:id="@+id/drawer_item_following"
+                        android:icon="@drawable/ic_star_black_18dp"
+                        android:title="@string/drawer_menu_following"/>
+                    <item
+                        android:id="@+id/drawer_item_friends"
+                        android:icon="@drawable/ic_people_black_18dp"
+                        android:title="@string/drawer_menu_friends"/>
+
+                </menu>
+
+            </item>
+
+        </group>
+
+        <!--<item-->
+            <!--android:id="@+id/drawer_item_following"-->
+            <!--android:icon="@drawable/ic_star_black_18dp"-->
+            <!--android:title="@string/drawer_menu_following"/>-->
+        <!--<item-->
+            <!--android:id="@+id/drawer_item_friends"-->
+            <!--android:icon="@drawable/ic_people_black_18dp"-->
+            <!--android:title="@string/drawer_menu_friends"/>-->
+        <item
+            android:id="@+id/drawer_item_likes"
+            android:icon="@drawable/ic_favorite_dribbble_18dp"
+            android:title="@string/drawer_menu_likes" />
+        <item
+            android:id="@+id/drawer_item_buckets"
+            android:icon="@drawable/ic_inbox_black_18dp"
+            android:title="@string/drawer_menu_buckets" />
+        <item
+            android:id="@+id/drawer_item_aboutme"
+            android:icon="@drawable/ic_info_black_18dp"
+            android:title="@string/drawer_menu_aboutme"/>
+    </group>
+</menu>
